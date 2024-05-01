@@ -25,7 +25,7 @@ redis-rs-session = ["redis", "rand"]
 redis-rs-tls-session = ["redis-rs-session", "redis/tokio-native-tls-comp"]
 
 [dependencies]
-actix-service = "2"
+actix-service = "2.0.2"
 actix-utils = "3"
 actix-web = { version = "4", default-features = false, features = ["cookies", "secure-cookies"] }
 

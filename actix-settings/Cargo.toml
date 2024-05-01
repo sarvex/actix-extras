@@ -16,7 +16,7 @@ all-features = true
 
 [dependencies]
 actix-http = "3"
-actix-service = "2"
+actix-service = "2.0.2"
 actix-web = "4"
 
 ioe = "0.5"

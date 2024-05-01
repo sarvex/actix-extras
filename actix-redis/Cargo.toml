@@ -28,7 +28,7 @@ web = ["actix-web"]
 [dependencies]
 actix = { version = "0.13", default-features = false }
 actix-rt = { version = "2.1", default-features = false }
-actix-service = "2"
+actix-service = "2.0.2"
 actix-tls = { version = "3", default-features = false, features = ["connect"] }
 
 log = "0.4.6"
